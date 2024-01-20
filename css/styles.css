@@ -576,6 +576,7 @@ button {
   pointer-events: auto;
 }
 .modal {
+  width: 408px;
   padding: 72px 24px 24px 24px;
   height: 584px;
   border-radius: 4px;
