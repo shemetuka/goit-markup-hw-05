@@ -535,6 +535,7 @@ button {
 }
 .footer-telegram {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 .footer-button {
@@ -543,7 +544,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 16px;
-
+  min-width: 165px;
   border-radius: 4px;
   background: #4d5ae5;
   border: none;
