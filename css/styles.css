@@ -576,8 +576,7 @@ button {
   pointer-events: auto;
 }
 .modal {
-  width: 408px;
-  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 24px 24px 24px;
   height: 584px;
   border-radius: 4px;
   background: #fcfcfc;
@@ -647,7 +646,6 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -659,12 +657,7 @@ button {
   position: relative;
 }
 
-.main-form {
-  margin-left: 24px;
-  margin-right: 24px;
-}
 .main-text-imput {
-  margin-top: 4px;
   display: block;
   padding-left: 38px;
   width: 100%;
@@ -706,7 +699,7 @@ button {
   overflow: auto;
   padding-left: 16px;
   padding-top: 8px;
-  margin-top: 4px;
+
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -723,9 +716,12 @@ button {
 .textarea-modal:active {
   border-color: #4d5ae5;
 }
-.agree-chatbox {
+.modal-wrap-checkbox {
+  margin-bottom: 24px;
 }
-
+.modal-user-comment {
+  margin-bottom: 16px;
+}
 .modal-last span {
   width: 16px;
   height: 16px;
@@ -742,9 +738,9 @@ button {
 }
 
 .agree-chatbox:checked + .modal-last span {
-  background-color: #f4f4fd;
+  background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .modal-last {
