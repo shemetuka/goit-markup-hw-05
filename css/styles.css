@@ -504,11 +504,15 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+
+  margin-bottom: 16px;
 }
 
 .form-footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
 }
 .email-footer {
   background-color: transparent;
@@ -531,8 +535,6 @@ button {
 }
 .footer-telegram {
   fill: #ffffff;
-
-  gap: 24px;
 }
 
 .footer-button {
@@ -541,7 +543,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  margin-left: 24px;
+
   border-radius: 4px;
   background: #4d5ae5;
   border: none;
