@@ -536,7 +536,6 @@ button {
 }
 
 .footer-button {
-  min-width: 165px;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
