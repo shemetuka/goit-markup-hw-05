@@ -514,7 +514,7 @@
     </footer>
     <div class="backdrop is-active">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button type="button" class="modal-close-btn">
           <svg width="8" height="8" class="modal-close-btn-svg">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -524,15 +524,15 @@
         </p>
         <form class="main-form">
           <div class="modal-field">
-            <label for="modal-person" class="modal-label">Name</label>
+            <label for="user-name" class="modal-label">Name</label>
             <div class="input-svg-div">
               <input
                 type="text"
-                name="modal-person"
-                id="modal-person"
+                name="user-name"
+                id="user-name"
                 class="main-text-imput"
               />
-              <svg width="18" height="18" class="modal-svg">
+              <svg width="18" height="24" class="modal-svg">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -566,10 +566,10 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="modal-textarea" class="modal-label">Comment</label>
+            <label for="user-comment " class="modal-label">Comment</label>
             <textarea
-              name="modal-text"
-              id="modal-textarea"
+              name="user-comment "
+              id="user-comment "
               placeholder="Text input"
               class="textarea-modal"
             ></textarea>
@@ -578,17 +578,18 @@
             <input
               type="checkbox"
               name="modal-checkbox"
-              id="modal-checkbox"
+              id="user-privacy"
               class="agree-chatbox visually-hidden"
+              value="true"
             />
-            <label for="modal-checkbox" class="modal-last">
+            <label for="user-privacy" class="modal-last">
               <span class="span-checkbox">
                 <svg width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector-1"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href=""> Privacy Policy </a>
+              <a href="" class="privat-policy-href"> Privacy Policy </a>
             </label>
           </div>
           <button type="submit" class="modal-last-btn">Send</button>
