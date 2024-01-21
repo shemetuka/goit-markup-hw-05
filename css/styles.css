@@ -496,7 +496,7 @@ button {
 }
 
 .footer-subscribe {
-  padding-left: 80px;
+  margin-left: 80px;
 }
 .subscribe-text {
   color: #fff;
@@ -535,7 +535,7 @@ button {
 }
 .footer-telegram {
   fill: #ffffff;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .footer-button {
@@ -555,7 +555,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-
+/*----------------  BACK DROP --------------- */
 .backdrop {
   position: fixed;
   width: 100%;
